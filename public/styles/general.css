@@ -1,0 +1,115 @@
+@font-face {
+    font-family: 'nerisblack';
+    src: url('../fonts/Neris-Black-webfont.eot');
+    src: url('../fonts/Neris-Black-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/Neris-Black-webfont.woff') format('woff'),
+         url('../fonts/Neris-Black-webfont.ttf') format('truetype'),
+         url('../fonts/Neris-Black-webfont.svg#nerisblack') format('svg');
+    font-weight: bold;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'neris';
+    src: url('../fonts/Neris-Light-webfont.eot');
+    src: url('../fonts/Neris-Light-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/Neris-Light-webfont.woff') format('woff'),
+         url('../fonts/Neris-Light-webfont.ttf') format('truetype'),
+         url('../fonts/Neris-Light-webfont.svg#nerislight') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+	font-family: neris;
+	font-size: 16px;
+	padding: 5em;
+}
+
+a { 
+	color: #FF8442;
+}
+a:hover {
+	color: #FF242B;
+}
+h1 {
+	font-family: nerisblack;
+	font-size: 4em;
+	text-align: center;
+	color: #2E8A49;
+	margin: .2em 0;
+}
+h2 {
+	font-family: nerisblack;
+	font-size: 3em;
+	text-align: center;
+	margin: .2em 0;
+}
+h3 {
+	font-family: nerisblack;
+	font-size: 2em;
+	text-align: center;
+	margin: .2em 0;
+	color: #29637A;
+}
+nav {
+	text-align: center;
+	width: 23.56em;
+	margin: 0 auto;
+	background-color: #eee;
+}
+nav a {
+	display: inline-block;
+	padding: .5em 1em;
+	background-color: #fff;
+}
+p {
+	padding: 1em;
+}
+input {
+	font-family: neris;
+	font-size: 1.2em;
+}
+
+.start-here {
+	width: 60em;
+	margin: 5em auto;
+	border: solid #eee;
+	border-width: .5em 1.5em;
+	border-radius: 3em;
+	background: linear-gradient(to right, #C1E8EB 49%,#BEFFB3 50%);
+	overflow: auto;
+	padding-bottom: 1em;
+}
+.dev-start {
+	width: 50%;
+	float: left;
+	background-color: #C1E8EB;
+	color: #2E8A49;
+} 
+.project-start {
+	width: 50%;
+	float: right;
+	background-color: #BEFFB3;
+	color: #29637A;
+}
+.form-fields {
+	text-align: center;
+}
+.form-fields input {
+	display: block;
+	margin: .2em auto;
+}
+
+#hello {
+	width: 60em;
+	margin: 0 auto 1em;
+}
+.resources {
+	padding: 1em;
+	background-color: #eee;
+	overflow: auto;
+}
+.resources a {
+	width: 50%;
+	float: left;
+}
