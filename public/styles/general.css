@@ -1,31 +1,33 @@
+/* -*- Mode: CSS; indent-tabs-mode: t; css-indent-offset: 4; tab-width: 4 -*- */
+
 @font-face {
-    font-family: 'nerisblack';
-    src: url('../fonts/Neris-Black-webfont.eot');
-    src: url('../fonts/Neris-Black-webfont.eot?#iefix') format('embedded-opentype'),
-         url('../fonts/Neris-Black-webfont.woff') format('woff'),
-         url('../fonts/Neris-Black-webfont.ttf') format('truetype'),
-         url('../fonts/Neris-Black-webfont.svg#nerisblack') format('svg');
-    font-weight: bold;
-    font-style: normal;
+	font-family: 'nerisblack';
+	src: url('../fonts/Neris-Black-webfont.eot');
+	src: url('../fonts/Neris-Black-webfont.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/Neris-Black-webfont.woff') format('woff'),
+		url('../fonts/Neris-Black-webfont.ttf') format('truetype'),
+		url('../fonts/Neris-Black-webfont.svg#nerisblack') format('svg');
+	font-weight: bold;
+	font-style: normal;
 }
 @font-face {
-    font-family: 'neris';
-    src: url('../fonts/Neris-Light-webfont.eot');
-    src: url('../fonts/Neris-Light-webfont.eot?#iefix') format('embedded-opentype'),
-         url('../fonts/Neris-Light-webfont.woff') format('woff'),
-         url('../fonts/Neris-Light-webfont.ttf') format('truetype'),
-         url('../fonts/Neris-Light-webfont.svg#nerislight') format('svg');
-    font-weight: normal;
-    font-style: normal;
+	font-family: 'neris';
+	src: url('../fonts/Neris-Light-webfont.eot');
+	src: url('../fonts/Neris-Light-webfont.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/Neris-Light-webfont.woff') format('woff'),
+		url('../fonts/Neris-Light-webfont.ttf') format('truetype'),
+		url('../fonts/Neris-Light-webfont.svg#nerislight') format('svg');
+	font-weight: normal;
+	font-style: normal;
 }
 
 body {
 	font-family: neris;
 	font-size: 16px;
-	padding: 5em;
+	padding: 2em;
 }
 
-a { 
+a {
 	color: #FF8442;
 }
 a:hover {
@@ -72,7 +74,7 @@ input {
 
 .start-here {
 	width: 60em;
-	margin: 5em auto;
+	margin: 3em auto 5em;
 	border: solid #eee;
 	border-width: .5em 1.5em;
 	border-radius: 3em;
@@ -85,7 +87,7 @@ input {
 	float: left;
 	background-color: #C1E8EB;
 	color: #2E8A49;
-} 
+}
 .project-start {
 	width: 50%;
 	float: right;
@@ -102,7 +104,7 @@ input {
 
 #hello {
 	width: 60em;
-	margin: 0 auto 1em;
+	margin: 0 auto;
 }
 .resources {
 	padding: 1em;
