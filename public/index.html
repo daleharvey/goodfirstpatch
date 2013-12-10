@@ -3,6 +3,7 @@
   <head>
     <title>goodfirstpatch</title>
     <link rel="stylesheet" href="styles/general.css" />
+    <link rel="stylesheet" href="styles/auth-buttons.css" />
   </head>
   <body>
 
@@ -33,10 +34,11 @@
       </div>
       <div class="project-start">
         <h2>maintainers</h2>
-        <p>Got issues that would be perfect for someone new to open source? Great! Tag them with <code>goodfirstpatch</code> and add the URL of your repo below. You'll be asked to authenticate to make sure you're authorized to add the repo, then you're all set!</p>
+        <p>Got issues that would be perfect for someone new to open source? Great! Sign in with GitHub and you can list projects you are familiar with for people to view and start working on.</p>
         <div class="form-fields">
-          <input type="text" id="project-start-url" placeholder="Repo URL" />
-          <input type="button" id="project-add" value="Add Repo" />
+          <a class="btn-auth btn-github" href="#">
+            Sign in with <b>GitHub</b>
+          </a>
         </div>
       </div>
     </div>
